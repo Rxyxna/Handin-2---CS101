@@ -18,7 +18,7 @@ public class Smartphone extends Computer{
         this.price = price;
     }
 
-    // Inheritence_1.Smartphone details
+    // Smartphone details
     public void smartphoneDetails() {
         computerDetails();
         System.out.println("Price: " + price);

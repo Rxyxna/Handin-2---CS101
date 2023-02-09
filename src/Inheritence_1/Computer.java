@@ -37,7 +37,7 @@ public class Computer {
         this.RAM = RAM;
     }
 
-    // Inheritence_1.Computer details
+    // Computer details
     public void computerDetails() {
         System.out.println("Brand: " + brand);
         System.out.println("Color: " + color);
