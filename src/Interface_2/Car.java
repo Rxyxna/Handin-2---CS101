@@ -39,4 +39,12 @@ public class Car implements Vehicle {
     public void applyBrakes(int a) {
 
     }
+
+    @Override
+    public String toString() {
+        return "Car: " +
+                "Brand = '" + carBrand + '\'' +
+                ", color = '" + color + '\''
+                ;
+    }
 }

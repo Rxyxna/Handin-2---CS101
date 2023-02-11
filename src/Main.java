@@ -41,10 +41,10 @@ public class Main {
 
         // Interface 2
         Car car = new Car("BMW", "Black");
-        System.out.println("Car Brand: " + car.getCarBrand() + " " +  "Color: "+ car.getColor());
+        System.out.println(car);
 
         Car car2 = new Car("Mercedes", "White");
-        System.out.println("Car Brand: " + car2.getCarBrand() + " " +  "Color: "+ car2.getColor());
+        System.out.println(car2);
 
         // Override
         OldSchoolRap oldSchoolRap = new OldSchoolRap();
