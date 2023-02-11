@@ -26,12 +26,6 @@ public class Burger implements FastFood {
     }
 
     @Override
-    public void cook() {
-        System.out.println("Cooking " + this.name);
-
-    }
-
-    @Override
     public void serve() {
         System.out.println("Serving " + this.name);
 

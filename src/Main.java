@@ -35,7 +35,6 @@ public class Main {
         };
         for (int i = 0; i < foodStatus.length; i++) {
             foodStatus[i].prepare();
-            foodStatus[i].cook();
             foodStatus[i].serve();
         }
 

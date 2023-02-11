@@ -5,7 +5,6 @@ public interface FastFood {
     public Double GetPrice();
 
     public void prepare();
-    public void cook();
     public void serve();
 
 
