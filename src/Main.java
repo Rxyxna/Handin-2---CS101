@@ -1,6 +1,8 @@
 import Inheritence_1.Laptop;
 import Inheritence_1.Smartphone;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -17,4 +19,9 @@ public class Main {
         System.out.println("iPhone:");
         iPhone.smartphoneDetails();
     }
+
+
+
+
+
 }
